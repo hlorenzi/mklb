@@ -1,0 +1,28 @@
+html
+	head
+		title Server
+		link(href="/style.css", rel="stylesheet")
+		link(href="https://fonts.googleapis.com/css?family=Roboto:900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext", rel="stylesheet")
+		link(href="https://fonts.googleapis.com/css?family=Rubik+Mono+One", rel="stylesheet")
+		
+	body(onload="render()")
+		h1 Server
+		
+		br
+		
+		textarea#inputMatchData
+		button(onclick="matchCreate()") Add Match
+		button(onclick="matchSetRandom()") Generate Random Match
+		
+		br
+		
+		h2 Players
+		div.playerGrid#divPlayers
+		
+		h2 Matches
+		div#divMatches
+		
+		script(src="/utils.js")
+		script(src="/request.js")
+		script(src="/serverView.js")
+		script(src="/main.js")

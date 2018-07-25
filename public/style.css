@@ -1,0 +1,87 @@
+html
+{
+	font-family: Roboto, sans-serif;
+}
+
+
+.playerSlot
+{
+	background-color: #dddddd;
+	border-radius: 5px;
+	
+	margin-bottom: 0.1em;
+	
+	display: grid;
+	grid-template-columns: 1fr 5fr 3fr;
+	grid-auto-rows: 1.5em;
+	
+	font-family: Roboto, sans-serif;
+	font-size: 1.5em;
+}
+
+
+.playerSlotRank
+{
+	font-family: Rubik Mono One, sans-serif;
+	transform: scale(0.75, 1);
+	margin: auto;
+}
+
+
+.playerSlotName
+{
+	font-family: Roboto, sans-serif;
+	margin: auto;
+}
+
+
+.playerSlotScore
+{
+	font-family: Rubik Mono One, sans-serif;
+	transform: scale(0.75, 1);
+	margin: auto;
+}
+
+
+.matchSlot
+{
+	background-color: #dddddd;
+	border-radius: 5px;
+	
+	margin-bottom: 0.1em;
+	
+	display: grid;
+	grid-template-columns: 2fr 5fr;
+	grid-auto-rows: 1.5em;
+	
+	font-family: Roboto, sans-serif;
+	font-size: 1.5em;
+}
+
+
+.matchSlotDate
+{
+	font-family: Roboto, sans-serif;
+	margin: auto;
+}
+
+
+.matchSlotSummary
+{
+	font-family: Roboto, sans-serif;
+	margin: auto;
+}
+
+
+.matchSlotSummaryName
+{
+	font-family: Roboto, sans-serif;
+}
+
+
+.matchSlotSummaryScore
+{
+	display: inline-block;
+	font-family: Rubik Mono One, sans-serif;
+	transform: scale(0.75, 1);
+}
